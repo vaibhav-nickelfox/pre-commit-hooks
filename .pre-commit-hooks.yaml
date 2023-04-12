@@ -204,12 +204,12 @@
     description: checks ambiguous constraints in storyboards and xib
     entry: check-ambiguous-constraints
     language: python
-    types: [python]
+    types: [text]
     stages: [commit, push, manual]
 -   id: check-commit-message
     name: check-commit-message
     description: check if commit message follows the commit message guidelines
     entry: check-commit-message
     language: python
-    types: [python]
+    types: [text]
     stages: [commit, push, manual]
